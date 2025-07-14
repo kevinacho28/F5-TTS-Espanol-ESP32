@@ -6,25 +6,7 @@ language:
 base_model:
 - SWivid/F5-TTS
 ---
-# Model
 
-## Modelo
-
-Este proyecto utiliza el modelo base:
-
-- [SWivid/F5-TTS](https://huggingface.co/SWivid/F5-TTS)
-
-Los archivos `.safetensors` necesarios para la inferencia **no se encuentran en este repositorio por su gran tamaño**.
-
-En su lugar, puedes descargarlos desde HuggingFace:
-
-- [jpgallegoar/F5-Spanish en HuggingFace](https://huggingface.co/jpgallegoar/F5-Spanish)
-
-### ¿Cómo usarlos?
-
-1. Descarga el archivo `model_1200000.safetensors` desde el enlace anterior.
-2. Colócalo en la carpeta del modelo que se carga por defecto (o en la misma carpeta donde está tu script `flask_f5_ESP32.py`).
-3. Asegúrate de que el archivo `.safetensors` esté bien referenciado desde tu código.
 # [GitHub Original](https://github.com/jpgallegoar/Spanish-F5)
 
 # F5-TTS Spanish Adaptación para ESP32
@@ -58,7 +40,7 @@ Esta es una implementación personalizada del modelo **F5-TTS** en español, con
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/kevinacho28/F5-TTS-Espanol-ESP32.git
 cd F5-TTS-Espanol
 
 # Crear entorno virtual
