@@ -1,10 +1,3 @@
----
-license: cc-by-nc-4.0
-library_name: f5-tts
-language:
-- es
-
-
 
 ## Modelo
 
