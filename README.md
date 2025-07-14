@@ -7,7 +7,7 @@ Este proyecto utiliza el modelo base:
 
 Los archivos `.safetensors` necesarios para la inferencia **no se encuentran en este repositorio por su gran tamaño**.
 
-En su lugar, puedes descargarlos desde HuggingFace:
+En su lugar, puedes descargarlos desde HuggingFace (dar click directamente y descargar cualquier modelo .safeftensor):
 
 - [jpgallegoar/F5-Spanish en HuggingFace](https://huggingface.co/jpgallegoar/F5-Spanish)
 
