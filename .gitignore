@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos temporales y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Notebooks temporales
+.ipynb_checkpoints/
+
+# Archivos de modelo (muy pesados)
+*.pt
+*.safetensors
+model_1200000.safetensors
+model_1250000.safetensors
+
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+*.env

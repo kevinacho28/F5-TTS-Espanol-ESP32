@@ -1,0 +1,20 @@
+# Forzar finales de línea LF (Unix style) — evita conflictos entre sistemas
+* text=auto eol=lf
+
+# Tratar archivos Python y scripts como texto
+*.py text
+*.ipynb text
+*.ino text
+*.md text
+
+# No normalizar binarios
+*.wav binary
+*.pt binary
+*.safetensors binary
+*.jar binary
+
+# Evitar diferencias en los notebooks de Jupyter
+*.ipynb  diff=jupyternotebook
+
+# Normaliza el archivo .gitattributes
+.gitattributes text eol=lf
